@@ -21,7 +21,23 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "app/home/vendor/jquery.min.js",
+        "app/home/vendor/jquery-migrate.min.js",
+        "app/home/vendor/bootstrap/js/bootstrap.min.js",
+        "app/home/vendor/jquery.easing.js",
+        "app/home/vendor/jquery.back-to-top.js",
+        "app/home/vendor/jquery.smooth-scroll.js",
+        "app/home/vendor/jquery.wow.min.js",
+        "app/home/vendor/jquery.parallax.min.js",
+        "app/home/vendor/jquery.appear.js",
+        "app/home/vendor/masonry/jquery.masonry.pkgd.min.js",
+        "app/home/vendor/masonry/imagesloaded.pkgd.min.js",
+        "app/home/vendor/js/layout.min.js",
+        "app/home/vendor/js/components/progress-bar.min.js",
+        "app/home/vendor/js/components/masonry.min.js",
+        "app/home/vendor/js/components/wow.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
