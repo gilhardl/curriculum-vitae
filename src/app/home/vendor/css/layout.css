@@ -310,7 +310,7 @@ fieldset[disabled] .btn-theme {
 
 .promo-block .promo-block-title {
   font-size: 70px;
-  color: #fff;
+  color: #515769;
   line-height: 1;
 }
 
@@ -322,7 +322,7 @@ fieldset[disabled] .btn-theme {
 
 .promo-block .promo-block-text {
   font-size: 25px;
-  color: #fff;
+  color: #515769;
 }
 
 .promo-block .promo-block-divider {
@@ -522,6 +522,7 @@ fieldset[disabled] .btn-theme {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  background-color: #fff;
 }
 
 /* Navbar Toggle */
@@ -673,7 +674,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #fff;
+  color: #515769;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;

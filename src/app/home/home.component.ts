@@ -9,7 +9,7 @@ import { Router, ActivatedRoute } from '@angular/router';
     './vendor/simple-line-icons/css/simple-line-icons.css',
     './vendor/bootstrap/css/bootstrap.min.css',
     './vendor/css/animate.css',
-    './vendor/css/layout.min.css',
+    './vendor/css/layout.css',
   ]
 })
 export class HomeComponent implements OnInit {
