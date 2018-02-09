@@ -1,431 +1,616 @@
-
 <!--========== HEADER ==========-->
 <header class="header navbar-fixed-top">
-  <!-- Navbar -->
-  <nav class="navbar" role="navigation">
-      <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="menu-container js_nav-item">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="toggle-icon"></span>
-              </button>
 
-              <!-- Logo -->
-              <!-- <div class="logo">
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation">
+        <div class="container">
+
+            <!-- Bouton -->
+            <div class="menu-container js_nav-item">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="sr-only">Ouvrir le menu</span>
+                    <span class="toggle-icon"></span>
+                </button>
+
+                <!-- Logo -->
+                <!-- <div class="logo">
                   <a class="logo-wrap" href="#body">
                       <img class="logo-img logo-img-main" src="assets/imgs/logo.png" alt="Asentus Logo">
                       <img class="logo-img logo-img-active" src="assets/imgs/logo-dark.png" alt="Asentus Logo">
                   </a>
               </div> -->
-              <!-- End Logo -->
-          </div>
+                <!-- FIN Logo -->
+            </div>
+            <!-- Fin Bouton -->
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse nav-collapse">
-              <div class="menu-container">
-                  <ul class="nav navbar-nav navbar-nav-right">
-                      <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="body" style="color: #515769; font-size: 1.1em;"><i class="icon-home"></i></a></li>
-                      <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="about" style="color: #515769;">À propos</a></li>
-                      <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="experience" style="color: #515769;">Expérience</a></li>
-                      <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="work" style="color: #515769;">Travaux</a></li>
-                      <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="contact" style="color: #515769;">Contact</a></li>
-                  </ul>
-              </div>
-          </div>
-          <!-- End Navbar Collapse -->
-      </div>
-  </nav>
-  <!-- Navbar -->
+            <!-- Menu -->
+            <div class="collapse navbar-collapse nav-collapse">
+                <div class="menu-container">
+                    <ul class="nav navbar-nav navbar-nav-right">
+                        <li class="js_nav-item nav-item">
+                            <a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="body" style="color: #515769; font-size: 1.1em;">
+                                <i class="icon-home"></i>
+                            </a>
+                        </li>
+                        <li class="js_nav-item nav-item">
+                            <a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="about" style="color: #515769;">À propos</a>
+                        </li>
+                        <li class="js_nav-item nav-item">
+                            <a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="experience" style="color: #515769;">Expérience</a>
+                        </li>
+                        <li class="js_nav-item nav-item">
+                            <a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="work" style="color: #515769;">Portfolio</a>
+                        </li>
+                        <li class="js_nav-item nav-item">
+                            <a class="nav-item-child nav-item-hover" [routerLink]="['/']" fragment="contact" style="color: #515769;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- FIN Menu-->
+
+        </div>
+    </nav>
+    <!-- FIN Navbar -->
+
 </header>
-<!--========== END HEADER ==========-->
+<!--========== FIN HEADER ==========-->
 
 <!--========== SLIDER ==========-->
 <div class="promo-block parallax-window" data-parallax="scroll" style="background-image: url('assets/imgs/hero.svg');">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-6">
-              <div class="promo-block-divider">
-                  <h1 class="promo-block-title">Lucas <br/> GILHARD</h1>
-                  <p class="promo-block-text">Développeur full-stack</p>
-              </div>
-              <ul class="list-inline">
-                  <li><a href="mailto:contact@gilhardl.fr" class="social-icons"><i class="icon-envelope"></i></a></li>
-                  <li><a href="tel:+33675624501" class="social-icons"><i class="icon-phone"></i></a></li>
-                  <li><a href="http://www.linkedin.com/in/gilhardl" class="social-icons" target="_blank"><i class="icon-social-linkedin"></i></a></li>
-                  <li><a href="https://github.com/gilhardl" class="social-icons" target="_blank"><i class="icon-social-github"></i></a></li>
-              </ul>
-          </div>
-      </div>
-      <!--// end row -->
-  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <!-- Résumé -->
+                <div class="promo-block-divider">
+                    <h1 class="promo-block-title">Lucas
+                        <br/> GILHARD</h1>
+                    <p class="promo-block-text">Développeur full-stack</p>
+                </div>
+                <!-- FIN Résumé -->
+
+                <!-- Icones -->
+                <ul class="list-inline">
+                    <li>
+                        <a href="mailto:contact@gilhardl.fr" class="social-icons">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+33675624501" class="social-icons">
+                            <i class="icon-phone"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/in/gilhardl" class="social-icons" target="_blank">
+                            <i class="icon-social-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/gilhardl" class="social-icons" target="_blank">
+                            <i class="icon-social-github"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- FIN Icones -->
+
+            </div>
+        </div>
+    </div>
 </div>
-<!--========== SLIDER ==========-->
+<!--========== FIN SLIDER ==========-->
+
 
 <!--========== PAGE LAYOUT ==========-->
-<!-- About -->
+<!-- A propos -->
 <div id="about">
-  <div class="container content-lg">
-      <div class="row">
-          <div class="col-sm-3 sm-margin-b-30">
-              <div class="text-right sm-text-left">
-                  <h2 class="margin-b-0">À propos</h2>
-                  <p>Un développeur full-quoi ???</p>
-              </div>
-          </div>
-          <div class="col-sm-8 col-sm-offset-1">
-              <div class="margin-b-60">
-                  <p>Bonjour je suis Lucas GILHARD, développeur full-stack chez <a href="http://www.cyberg.fr" target="_blank">Cyberg</a> mais pas seulement.</p>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
+    <div class="container content-lg">
+        <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+                <div class="text-right sm-text-left">
+                    <h2 class="margin-b-0">À propos</h2>
+                    <p>Un développeur full-quoi ???</p>
+                </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+                <div class="margin-b-60">
+                    <p>Bonjour je suis Lucas GILHARD, développeur full-stack chez
+                        <a href="http://www.cyberg.fr" target="_blank">Cyberg</a>, une PME de services du numérique florissante située à Annonay en Ardèche. Si vous êtes
+                        familié avec les métiers du développement informatique, vous savez très certainement ce qu'est un
+                        développeur full-stack mais ce n'est pas le cas de tout le monde. Le plus simple serait de voir ce
+                        qu'en dit notre ami
+                        <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_full_stack" target="_blank">Wikipédia :</a>
+                        <br/>
+                        <q>Un développeur full stack est un informaticien capable de réaliser des tâches à n'importe quel niveau
+                            technique de la pile des différentes couches qui constituent une application informatique.</q>
+                        <br/>
+                    </p>
+                    <p>Vous y voyez plus clair ? Je ne suis pas sûr...
+                        <br/> En réalité c'est simplement un
+                        <q>développeur à tout faire</q>. Quelqu'un ayant une connaissance large lui permettant de mener un projet
+                        informatique de A à Z.</p>
+                    <p>Les différentes couches qui constituent une application étant :</p>
+                    <ul>
+                        <li style="color:#a6a7aa;">Configuration du système informatique de l'utilisateur</li>
+                        <li style="color:#a6a7aa;">Conception et manipulation de bases de données</li>
+                        <li style="color:#a6a7aa;">Implémentation du code
+                            <q>back-end</q>, c'est à dire les services (API) permettant l'accès aux données</li>
+                        <li style="color:#a6a7aa;">Implémentation du code
+                            <q>font-end</q>, c'est à dire l'interface grâce à laquelle l'utilisateur final interagira avec l'application</li>
+                        <li style="color:#a6a7aa;">Gestion et planification du projet</li>
+                    </ul>
+                </div>
 
-              <!-- Progress Box -->
-              <div class="progress-box">
-                  <h5>PHP <span class="color-heading pull-right">87%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
-                  </div>
-              </div>
-              <div class="progress-box">
-                  <h5>HTML5 <span class="color-heading pull-right">96%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
-                  </div>
-              </div>
-              <div class="progress-box">
-                  <h5>JavaSript <span class="color-heading pull-right">52%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="52"></div>
-                  </div>
-              </div>
-              <div class="progress-box">
-                  <h5>Photoshop <span class="color-heading pull-right">77%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
-                  </div>
-              </div>
-              <!-- End Progress Box -->
-          </div>
-      </div>
-      <!--// end row -->
-  </div>
+
+            </div>
+        </div>
+    </div>
 </div>
-<!-- End About -->
+<!-- FIN A propos -->
 
-<!-- Experience -->
+
+<!-- Expérience / Compétences -->
 <div id="experience">
-  <div class="bg-color-sky-light" data-auto-height="true">
-      <div class="container content-lg">
-          <div class="row">
-              <div class="col-sm-3 sm-margin-b-30">
-                  <div class="text-right sm-text-left">
-                      <h2 class="margin-b-0">Experience</h2>
-                      <p>En pleine découverte du monde professionnel...</p>
-                  </div>
-              </div>
-              <div class="col-sm-8 col-sm-offset-1">
-                  <div class="row row-space-2 margin-b-4">
-                      <div class="col-md-4 md-margin-b-4">
-                          <div class="service" data-height="height">
-                              <div class="service-element">
-                                  <i class="service-icon icon-chemistry"></i>
-                              </div>
-                              <div class="service-info">
-                                  <h3>HTML5/CSS3</h3>
-                                  <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                              </div>
-                              <a href="#" class="content-wrapper-link"></a>    
-                          </div>
-                      </div>
-                      <div class="col-md-4 md-margin-b-4">
-                          <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                              <div class="service-element">
-                                  <i class="service-icon color-white icon-screen-tablet"></i>
-                              </div>
-                              <div class="service-info">
-                                  <h3 class="color-white">Photoshop</h3>
-                                  <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                              </div>
-                              <a href="#" class="content-wrapper-link"></a>    
-                          </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="service" data-height="height">
-                              <div class="service-element">
-                                  <i class="service-icon icon-badge"></i>
-                              </div>
-                              <div class="service-info">
-                                  <h3>Front-end</h3>
-                                  <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                              </div>
-                              <a href="#" class="content-wrapper-link"></a>    
-                          </div>
-                      </div>
-                  </div>
-                  <!--// end row -->
-              </div>
-          </div>
-          <!--// end row -->
-      </div>
-  </div>
-</div>
-<!-- End Experience -->
+    <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="container content-lg">
 
-<!-- Work -->
+            <!-- Compétences -->
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30 col-sm-offset-1">
+                    <div class="text-left sm-text-right">
+                        <h2 class="margin-b-0">Compétences</h2>
+                        <p>Je suis bon dans ce que j'aime faire</p>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Je ne suis pas très à l'aise avec l'idée de m'auto-évaluer, je vous propose donc de découvrir mes compétences
+                        en fonction de ce que j'aime faire plûtot que ce je maitrise.
+                        <br/>
+                        <i class="icon-emotsmile"></i>&nbsp;
+                        <i style="font-size: 0.8em;">Tout bon dev sait lire une doc ou chercher sur Google</i>
+                    </p>
+                    <!-- Progress Box -->
+                    <div class="progress-box">
+                        <h5>Ionic Framework
+                            <span class="color-heading pull-right">95%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>Angular
+                            <span class="color-heading pull-right">75%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>JavaSript / Typescrypt
+                            <span class="color-heading pull-right">80%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>HTML
+                            <span class="color-heading pull-right">55%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="55"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>CSS
+                            <span class="color-heading pull-right">35%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="35"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>Windev / Webdev
+                            <span class="color-heading pull-right">60%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>Wordpress / Prestashop
+                            <span class="color-heading pull-right">40%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="40"></div>
+                        </div>
+                    </div>
+                    <!-- End Progress Box -->
+                </div>
+
+            </div>
+            <!-- FIN Compétences -->
+
+            <!-- Expérience -->
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Expérience</h2>
+                        <p>En pleine découverte du monde professionnel...</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-4 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-trophy"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Lycée Vernet</h3>
+                                    <p class="margin-b-5">Baccalauréat Scientifique Sciences de l'Ingénieur</p>
+                                </div>
+                                <!-- <a href="#" class="content-wrapper-link"></a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-4 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-graduation"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">Université Grenoble Alpes</h3>
+                                    <p class="color-white margin-b-5">● DUT Informatique
+                                        <br/>● Licence Pro Métiers de l'informatique: Application Web</p>
+                                </div>
+                                <!-- <a href="#" class="content-wrapper-link"></a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <img class="service-icon" src="http://www.cyberg.fr/static/drawable/Logo.svg" width="35px" />
+                                </div>
+                                <div class="service-info">
+                                    <h3>Cyberg</h3>
+                                    <p class="margin-b-5">Membre d'une super équipe depuis septembre 2016</p>
+                                </div>
+                                <!-- <a href="#" class="content-wrapper-link"></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN Expérience -->
+
+        </div>
+    </div>
+</div>
+<!-- FIN Expérience / Compétence -->
+
+
+<!-- Portfolio -->
 <div id="work">
-  <div class="container content-lg">
-      <div class="row">
-          <div class="col-sm-3 sm-margin-b-30">
-              <div class="text-right sm-text-left">
-                  <h2 class="margin-b-0">Portfolio</h2>
-                  <p>Les projets que j'ai réalisé</p>
-              </div>
-          </div>
-          <div class="col-sm-8 col-sm-offset-1">
-              <!-- Masonry Grid -->
-              <div class="masonry-grid row row-space-2">
-                  <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                  <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                      <!-- Work -->
-                      <div class="work work-popup-trigger">
-                          <div class="work-overlay">
-                              <img class="full-width img-responsive" src="assets/imgs/800x400/01.jpg" alt="Portfolio Image">
-                          </div>
-                          <div class="work-popup-overlay">
-                              <div class="work-popup-content">
-                                  <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                  <div class="margin-b-30">
-                                      <h3 class="margin-b-5">Art Of Coding</h3>
-                                      <span>Clean &amp; Minimalistic Design</span>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                              <ul class="list-inline work-popup-tag">
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-4">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                              <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                              <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                              <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- End Work -->
-                  </div>
-                  <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                      <!-- Work -->
-                      <div class="work work-popup-trigger">
-                          <div class="work-overlay">
-                              <img class="full-width img-responsive" src="assets/imgs/397x400/01.jpg" alt="Portfolio Image">
-                          </div>
-                          <div class="work-popup-overlay">
-                              <div class="work-popup-content">
-                                  <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                  <div class="margin-b-30">
-                                      <h3 class="margin-b-5">Art Of Coding</h3>
-                                      <span>Clean &amp; Minimalistic Design</span>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                              <ul class="list-inline work-popup-tag">
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-4">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                              <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                              <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                              <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- End Work -->
-                  </div>
-                  <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                      <!-- Work -->
-                      <div class="work work-popup-trigger">
-                          <div class="work-overlay">
-                              <img class="full-width img-responsive" src="assets/imgs/397x300/01.jpg" alt="Portfolio Image">
-                          </div>
-                          <div class="work-popup-overlay">
-                              <div class="work-popup-content">
-                                  <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                  <div class="margin-b-30">
-                                      <h3 class="margin-b-5">Art Of Coding</h3>
-                                      <span>Clean &amp; Minimalistic Design</span>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                              <ul class="list-inline work-popup-tag">
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-4">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                              <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                              <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                              <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- End Work -->
-                  </div>
-                  <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                      <!-- Work -->
-                      <div class="work work-popup-trigger">
-                          <div class="work-overlay">
-                              <img class="full-width img-responsive" src="assets/imgs/397x300/02.jpg" alt="Portfolio Image">
-                          </div>
-                          <div class="work-popup-overlay">
-                              <div class="work-popup-content">
-                                  <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                  <div class="margin-b-30">
-                                      <h3 class="margin-b-5">Art Of Coding</h3>
-                                      <span>Clean &amp; Minimalistic Design</span>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                              <ul class="list-inline work-popup-tag">
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-4">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                              <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                              <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                              <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- End Work -->
-                  </div>
-                  <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                      <!-- Work -->
-                      <div class="work work-popup-trigger">
-                          <div class="work-overlay">
-                              <img class="full-width img-responsive" src="assets/imgs/397x300/03.jpg" alt="Portfolio Image">
-                          </div>
-                          <div class="work-popup-overlay">
-                              <div class="work-popup-content">
-                                  <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                  <div class="margin-b-30">
-                                      <h3 class="margin-b-5">Art Of Coding</h3>
-                                      <span>Clean &amp; Minimalistic Design</span>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                              <ul class="list-inline work-popup-tag">
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-4">
-                                          <div class="margin-t-10 sm-margin-t-0">
-                                              <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                              <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                              <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                              <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- End Work -->
-                  </div>
-              </div>
-              <!-- End Masonry Grid -->
-          </div>
-      </div>
-      <!--// end row -->
-  </div>
-</div>
-<!-- End Work -->
-  
-<!-- Contact -->
-<div id="contact">
-  <div class="bg-color-sky-light">
-      <div class="container content-lg">
-          <div class="row">
-              <div class="col-sm-3 sm-margin-b-30">
-                  <div class="text-right sm-text-left">
-                      <h2 class="margin-b-0">Contacts</h2>
-                      <p>Puis-je vous aider ?</p>
-                  </div>
-              </div>
-              <div class="col-sm-8 col-sm-offset-1">
-                  <div class="row">
-                      <div class="col-md-4 col-xs-6 md-margin-b-30">
-                          <h5>Adresse</h5>
-                          <a href="https://www.google.fr/search?q=Annonay"><i class="icon-map"></i> &nbsp; Annonay, Ardèche <br />FRANCE</a>
-                      </div>
-                      <div class="col-md-4 col-xs-6 md-margin-b-30">
-                          <h5>Téléphone</h5>
-                          <a href="tel:+33675624501"><i class="icon-phone"></i> &nbsp; +33 6 75 62 45 01</a>
-                      </div>
-                      <div class="col-md-4 col-xs-6">
-                          <h5>Email</h5>
-                          <a href="mailto:contact@gilhardl.fr"><i class="icon-envelope"></i> &nbsp; contact@gilhardl.fr</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!--// end row -->
-      </div>
-  </div>
-</div>
-<!-- End Contact -->
-<!--========== END PAGE LAYOUT ==========-->
+    <div class="container content-lg">
+        <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+                <div class="text-right sm-text-left">
+                    <h2 class="margin-b-0">Portfolio</h2>
+                    <p>Projets réalisés et en cours</p>
+                </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row row-space-2">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
 
-<!--========== FOOTER ==========-->
-<!-- <footer class="footer">
+                    <!-- RCB -->
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                        <!-- Work -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay" style="box-shadow: 0 0 10px 0px #51576981;">
+                                <img class="full-width img-responsive" src="assets/imgs/rcbourguesan.png" alt="Site web Rugby Club Bourguesan">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Rugby club bourguesan</h3>
+                                        <span>Site web</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud.</p>
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <ul class="list-inline work-popup-tag">
+                                                    <li class="work-popup-tag-item">
+                                                        <i class="work-popup-tag-link">Wordpress</i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5">
+                                                    <strong>Statut :</strong> En ligne</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <!-- FIN RCB -->
+
+                    <!-- Passion XV -->
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                        <!-- Work -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay" style="box-shadow: 0 0 10px 0px #51576981;">
+                                <img class="full-width img-responsive" src="assets/imgs/passionxv.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Passion XV</h3>
+                                        <span>Application mobile</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud.</p>
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <ul class="list-inline work-popup-tag">
+                                                    <li class="work-popup-tag-item">
+                                                        <i class="work-popup-tag-link">Ionic Framework</i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5">
+                                                    <strong>Statut :</strong> En développement</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Date de sortie :</strong> printemps 2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <!-- FIN Passion XV -->
+
+                    <!-- OurEvents -->
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                        <!-- Work -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay" style="box-shadow: 0 0 10px 0px #51576981;">
+                                <img class="full-width img-responsive" src="assets/imgs/ourevents.png" alt="Progressive web app OurEvents">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Fermer</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">OurEvents</h3>
+                                        <span>Progressive Web App</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud.</p>
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <ul class="list-inline work-popup-tag">
+                                                    <li class="work-popup-tag-item">
+                                                        <i class="work-popup-tag-link">Angular,</i>
+                                                    </li>
+                                                    <li class="work-popup-tag-item">
+                                                        <i class="work-popup-tag-link">Stencil</i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5">
+                                                    <strong>Statut :</strong> En développement</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Date de sortie :</strong> 2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <!-- FIN OurEvents -->
+
+                        <!-- <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="assets/imgs/397x300/02.jpg" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Art Of Coding</h3>
+                                        <span>Clean &amp; Minimalistic Design</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud.</p>
+                                                <ul class="list-inline work-popup-tag">
+                                                    <li class="work-popup-tag-item">
+                                                        <a class="work-popup-tag-link" href="#">Design,</a>
+                                                    </li>
+                                                    <li class="work-popup-tag-item">
+                                                        <a class="work-popup-tag-link" href="#">Coding,</a>
+                                                    </li>
+                                                    <li class="work-popup-tag-item">
+                                                        <a class="work-popup-tag-link" href="#">Portfolio</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5">
+                                                    <strong>Project Leader:</strong> John Doe</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Designer:</strong> Alisa Keys</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Developer:</strong> Mark Doe</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Customer:</strong> Keenthemes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                        <!-- <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="assets/imgs/397x300/03.jpg" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Art Of Coding</h3>
+                                        <span>Clean &amp; Minimalistic Design</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud.</p>
+                                                <ul class="list-inline work-popup-tag">
+                                                    <li class="work-popup-tag-item">
+                                                        <a class="work-popup-tag-link" href="#">Design,</a>
+                                                    </li>
+                                                    <li class="work-popup-tag-item">
+                                                        <a class="work-popup-tag-link" href="#">Coding,</a>
+                                                    </li>
+                                                    <li class="work-popup-tag-item">
+                                                        <a class="work-popup-tag-link" href="#">Portfolio</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5">
+                                                    <strong>Project Leader:</strong> John Doe</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Designer:</strong> Alisa Keys</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Developer:</strong> Mark Doe</p>
+                                                <p class="margin-b-5">
+                                                    <strong>Customer:</strong> Keenthemes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    </div>
+                    <!-- End Masonry Grid -->
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+    <!-- FIN Portfolio -->
+
+
+    <!-- Contacts -->
+    <div id="contact">
+        <div class="bg-color-sky-light">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Contacts</h2>
+                            <p>Puis-je vous aider ?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-6 md-margin-b-30">
+                                <h5>Adresse</h5>
+                                <a href="https://www.google.fr/search?q=Annonay">
+                                    <i class="icon-map"></i> &nbsp; Annonay, Ardèche
+                                    <br />FRANCE</a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 md-margin-b-30">
+                                <h5>Téléphone</h5>
+                                <a href="tel:+33675624501">
+                                    <i class="icon-phone"></i> &nbsp; +33 6 75 62 45 01</a>
+                            </div>
+                            <div class="col-md-4 col-xs-6">
+                                <h5>Email</h5>
+                                <a href="mailto:contact@gilhardl.fr">
+                                    <i class="icon-envelope"></i> &nbsp; contact@gilhardl.fr</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN Contact -->
+    <!--========== FIN PAGE LAYOUT ==========-->
+
+    <!-- Si footer, le placer ici -->
+
+    <!-- Bouton retour en haut -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">
+        <i class="icon-arrow-up"></i>
+    </a>
+    <!-- FIN Bouton retour en haut -->
+
+
+
+
+
+
+
+    <!--========== FOOTER ==========-->
+    <!-- <footer class="footer">
   <div class="content container">
       <div class="row">
           <div class="col-xs-6">
@@ -437,7 +622,4 @@
       </div>
   </div>
 </footer> -->
-<!--========== END FOOTER ==========-->
-
-<!-- Back To Top -->
-<a href="javascript:void(0);" class="js-back-to-top back-to-top"><i class="icon-arrow-up"></i></a>
+    <!--========== FIN FOOTER ==========-->
